@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Python
+ml/__pycache__/
+ml/*.pyc
+ml/.venv/
+ml/venv/
+
+# Build
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
