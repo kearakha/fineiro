@@ -56,3 +56,6 @@ Backend mounts auth at `/api/auth` (`/api/auth/login`, `/api/auth/register`) but
 - **API base URL hardcoded** as `http://localhost:5001` in every component/page — no env var, no axios instance. Changing backend port means editing every call site.
 - **Auth**: JWT stored in `localStorage.token` after login, manually attached as `Authorization` header per request. No interceptor.
 - Pages under `src/app/*` (App Router). Shared UI in `src/components/`. `ThemeContext` for theming. Charts via `recharts`.
+
+## Konteks Tambahan
+Baca ~/Documents/Nexus/CLAUDE.md dan folder terkait di 01-Projects/ atau 02-Areas/ untuk konteks personal & riwayat kerja. Kalau note project ini belum ada di Nexus, buatkan.
